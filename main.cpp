@@ -97,7 +97,7 @@ int main()
     node* A = NULL;
 
     int n;
-    A = insert_data(x, A); //'x' : value to enter, A = head node
+    A = insert_data(n, A); //'n' : value to enter, A = head node
     cout<<"traversing DLR : ";
     traverse_DLR(A);
 
