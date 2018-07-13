@@ -50,7 +50,9 @@ bool check()
             sol[i][j] = -1;
         }
     }
+    //starting at position 0,0
     sol[0][0] = 0;
+    //no of moves in x and y direction..
     int xmove[8] = {  2, 1, -1, -2, -2, -1,  1,  2 };
     int ymove[8] = {1, 2,  2,  1, -1, -2, -2, -1 };
 
